@@ -19,11 +19,15 @@ to export them. So using this bash script would make sense.
 
 ### How to use
 
-Put the png images in the same directory as the bash script and run the script:
+Export each image from Figma once in 4x size (xxxhdpi quality):
+
+<img width="244" height="109" alt="image" src="https://github.com/user-attachments/assets/d356287c-dfa9-4418-9504-fbaf0668badf" />
+
+Put all the png images in the same directory as the bash script and run the script:
 
 `./generate.sh`
 
-All the images converted will appear in the appropriate folders.
+All the images converted will appear in the appropriate folders in the repo directory.
 
 ### Tip
 
