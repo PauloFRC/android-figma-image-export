@@ -19,7 +19,11 @@ to export them. So using this bash script would make sense.
 
 ### How to use
 
-Put the png images in the same directory as the bash script and run the script. All the images converted will appear in the appropiate folders.
+Put the png images in the same directory as the bash script and run the script:
+
+`./generate.sh`
+
+All the images converted will appear in the appropiate folders.
 
 ### Tip
 
