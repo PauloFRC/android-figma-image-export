@@ -2,8 +2,8 @@
 
 In Android, there are six main folders for image resources in each resolution:
 
-- drawable (1x)
-- drawable-mdpi (1.5x)
+- drawable-mdpi (1x)
+- drawable-hdpi (1.5x)
 - drawable-xhdpi (2x)
 - drawable-xxhdpi (3x)
 - drawable-xxxhdpi (4x)
