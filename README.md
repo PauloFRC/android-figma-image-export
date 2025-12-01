@@ -1,2 +1,24 @@
-# android-figma-image-export
-Guide to exporting Figma PNG resource images to Android 
+## Exporting Figma PNG resource images to Android 
+
+In Android, there are six main folders for image resources in each resolution:
+
+- drawable (1x)
+- drawable-mdpi (1.5x)
+- drawable-xhdpi (2x)
+- drawable-xxhdpi (3x)
+- drawable-xxxhdpi (4x)
+
+Using the [Android Resources Export](https://www.figma.com/community/plugin/735452896889481850/android-resources-export), it is possible to export automatically png images in all resolutions, but in many complex objects, it may struggle
+to export them. So using this bash script would make sense.
+
+### Dependencies
+
+`sudo apt install imagemagick`
+
+### How to use
+
+Put the png images in the same directory as the bash script and run the script. All the images converted will appear in the appropiate folders.
+
+### Tip
+
+After importing the png images in the project folders, covert them to webp to occupy less space using Android Studio's converter
